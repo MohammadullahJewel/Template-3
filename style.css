@@ -1,0 +1,283 @@
+/* 
+    Template Name   : 
+    Author Name     : Mohammadullah Jewel;
+    Author URL      : ;
+
+*/
+*{margin:0;padding:0;box-sizing: border-box;text-decoration: none;list-style: none;}
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+.sec-padding {padding: 30px 0;}
+.container-fluid{width:95%; margin:auto; overflow: hidden;}
+.container {width: 90%;margin: auto;overflow: hidden;}
+.row{display: flex; align-items: center; justify-content: flex-start; flex-wrap: wrap;}
+.col-md-6{flex-basis: 50%;}
+.col-md-4 {flex-basis: 31%;margin: 1.1%;}
+.col-md-3{flex-basis: 23%; margin: 1%;}
+.col-md-2{flex-basis: 17%; margin:1%;}
+img{width:100%;}
+/* =========================== START HEADER AREA ===================== */
+header {
+  background: #f3f3f3;
+}
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.h-right a {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 17px;
+  color: #db814b;
+  font-weight: 600;
+}
+.h-right .sign-in {
+  background: #db814b;
+  padding: 5px 15px;
+  border-radius: 3px;
+  color: #fff;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.h-right .sign-in:hover {
+  background: #db4;
+  color: #db4b2d;
+}
+.header-left h2 {
+  font-size: 25px;
+  color: #000;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+.header-left p {
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+.header-left {
+  padding: 50px;
+}
+.header-right {
+  padding: 15%;
+}
+/* ======================== END HEADER AREA ================ */
+/* =========================== START SLIDER AREA ============ */
+.slider {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding: 50px 0;
+}
+.slider i {
+  font-size: 31px;
+  background: #a4a4a4;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+}
+.slider p {
+  line-height: 25px;
+  font-size: 15px;
+}
+/* =========================== END SLIDER AREA ============ */
+/* ============================= START CONTENT AREA ============== */
+.main-content h2 {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 22px;
+  color: #575757;
+}
+.single-content i {
+  color: #fff;
+  background: #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.single-content h3 {
+  font-size: 16px;
+  padding: 7px 0;
+  color: #666;
+}
+.single-content p {
+  font-size: 14px;
+  line-height: 23px;
+  padding-right: 10px;
+}
+/* ======================== END CONTENT AREA ============== */
+/* ======================== START CHART AREA ================== */
+.chart {
+  width: 150px;
+  height: 150px;
+  border: 40px solid #ececec;
+  border-radius: 50%;
+  margin: auto;
+  transform: rotate(50deg);
+  border-top-color: #ff350d; 
+  border-right-color: #a14c38bd;
+  border-bottom-color: #575757;
+}
+.parsent {
+	display: inline-block;
+	width: 40%;
+	text-align: center;
+	margin: 20px 0px;
+}
+.parsent span {
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: #FF350D;
+	display: inline-block;
+}
+.parsent h3 {
+  display: inline-block;
+  padding-left: 10px;
+}
+.snd {
+  background-color: #B97A6C !important;
+}
+.trd {
+  background-color: #575757 !important;
+}
+.frt {
+  background-color: #ECECEC !important;
+}
+.chart-area p {
+  padding: 10px;
+  line-height: 30px;
+}
+/* ======================== END CHART AREA ================== */
+/* ============================= START GELLERY AREA =============== */
+.gallery-box {
+  background: #ccc;
+  border-radius: 8px;
+  padding: 15px;
+}
+.gallery-box a {
+  font-size: 18px;
+  padding: 10px 2px;
+  display: block;
+  font-weight: 600;
+  color: #444;
+}
+.gallery-box h3 {
+  padding-bottom: 15px;
+}
+.gallery-box p {
+  font-size: 15px;
+  line-height: 25px;
+  padding-bottom: 5px;
+}
+.gallery-box .cmd {
+  padding: 10px 0;
+  padding-bottom: 20px;
+}
+.gallery-box .cmd span {
+  padding-right: 20px;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.gallery-box .cmd span i {
+  letter-spacing: 10px;
+}
+.gallery-box .cmd span:hover {
+  color: #919191;
+}
+/* ============================= END GELLERY AREA =============== */
+/* ================= START MEMBER SECTION ==================== */
+.member-section {
+  text-align: center;
+}
+.member-section h2 {
+  font-size: 22px;
+  color: #666;
+  padding: 10px 0;
+}
+.member-section .center{
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  line-height: 24px;
+  padding: 10px 0;
+}
+.single-member-box img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.single-member-box h3 {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 5px;
+  color: #777;
+}
+.single-member-box p {
+  font-size: 15px;
+  color: #999;
+}
+/* ================= END MEMBER SECTION ==================== */
+/* ======================== START FOOTER AREA ============== */
+.footer-content .row {
+  align-items: flex-start;
+}
+.single-footer-content h3 {
+  font-size: 18px;
+  padding: 8px 0;
+  color: #666;
+}
+.single-footer-content ul li a {
+  display: block;
+  width: 100%;
+  color: #6a6a6a;
+  padding: 5px 0;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.single-footer-content ul li a:hover {
+  color: #000;
+}
+.single-footer-content.last span {
+  display: inline-flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+.single-footer-content.last span img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.single-footer-content.last p {
+  font-size: 15px;
+  padding: 20px 0;
+}
+.single-footer-content.last ul li {
+  display: inline-block;
+  margin: 3px;
+}
+.single-footer-content.last ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background: #ccc;
+  border-radius: 50%;
+}
+/* ======================== END FOOTER AREA ============== */
